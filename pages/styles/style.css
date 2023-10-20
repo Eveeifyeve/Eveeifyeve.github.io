@@ -2,37 +2,17 @@ body {
     background: #0f0c29;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-position: fixed;
-}
+ /* Adjust this value to change the opacity of the background image */
 
-@media (pointer:none), (pointer:coarse)  {
-   .Big-text{
-    max-width: 100%;
-   }
-
-
-
-   .Short-text {
-    max-width: 100%;
-    margin-top: 50%;
-   }
-
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ z-index: -1;   
 }
 
 
-@media (max-width: 767px)  {
-    .Big-text{
-     max-width: 100%;
-    }
- 
- 
- 
-    .Short-text {
-     max-width: 100%;
-     margin-top: 50%;
-    }
- 
- }
+
 
 
 
@@ -50,6 +30,7 @@ position: fixed;
     color: white;
     position: absolute;
     top: 45%;
+    margin-top: 50%;
     font-size: 500%;
     left: 50%;
     transform: translate(-50%, -50%);
