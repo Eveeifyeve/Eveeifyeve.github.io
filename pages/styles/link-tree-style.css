@@ -56,7 +56,7 @@ a {
 }
 
 /* This media query will apply when the screen width is 600px or less */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .link-container {
         max-width: 100%; /* On small screens, the container can take up the full screen width */
     }
